@@ -1,3 +1,3 @@
 jawr-demo
 =========
-Initial commit
+Demo project for JAWR
