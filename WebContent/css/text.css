@@ -1,0 +1,57 @@
+/* txt, links, lines, titles */
+a {color:#428301;outline:none}
+a:hover {text-decoration:none}
+h1 {padding:17px 0 0 44px;font-size:36px;line-height:1.2em}
+h1 a {text-decoration:none}
+h2 {color:#464646;font-size:30px;line-height:1.2em;margin-bottom:15px;letter-spacing:-1px}
+h2.extra {padding:30px 0 0 43px}
+h3 {font-size:26px;line-height:1.2em;color:#fff;margin-bottom:30px}
+h4 {font-size:20px;line-height:1.2em;color:#fff;margin-bottom:27px;letter-spacing:-1px}
+h4.extra {margin-bottom:12px}
+h5 {font-size:1em;line-height:1.667em;margin-bottom:10px}
+.link1 {display:inline-block;color:#fff;font-size:15px;line-height:1.2em;text-decoration:none;background:url(../images/link1-right.png) no-repeat right top;padding-right:7px;letter-spacing:-1px;text-transform:uppercase}
+.link1:hover {color:#82b704}
+.link1 span {display:block;background:url(../images/link1-left.png) no-repeat left top;padding-left:7px}
+.link1 span span {background:url(../images/link1-bgd.png) left top repeat-x;padding:12px 14px}
+.link2 {display:inline-block;color:#fff;font-size:15px;line-height:1.2em;text-decoration:none;background:url(../images/link2-bgd.gif) left top repeat-x;letter-spacing:-1px;text-transform:uppercase}
+.link2:hover {color:#000}
+.link2 span {display:block;background:url(../images/link2-left.gif) no-repeat left top}
+.link2 span span {background:url(../images/link2-right.gif) no-repeat right top;padding:10px 22px}
+.link3 {display:inline-block;color:#fff;font-size:15px;line-height:1.2em;text-decoration:none;background:url(../images/link3-bgd.gif) left top repeat-x;letter-spacing:-1px;text-transform:uppercase}
+.link3:hover {color:#82b704}
+.link3 span {display:block;background:url(../images/link3-left.gif) no-repeat left top}
+.link3 span span {background:url(../images/link3-right.gif) no-repeat right top;padding:8px 19px}
+.link4 {display:inline-block;color:#fff;font-size:15px;line-height:1.2em;text-decoration:none;background:url(../images/link4-bgd.gif) left top repeat-x;letter-spacing:-1px;text-transform:uppercase}
+.link4:hover {color:#82b704}
+.link4 span {display:block;background:url(../images/link4-left.gif) no-repeat left top}
+.link4 span span {background:url(../images/link4-right.gif) no-repeat right top;padding:10px 22px}
+.line-ver1 {background-image:url(../images/line-ver1.gif);background-repeat:repeat-y;background-position:336px 0;width:100%}
+.line-ver2 {background-image:url(../images/line-ver1.gif);background-repeat:repeat-y;background-position:457px 0;width:100%}
+.line-ver3 {background-image:url(../images/line-ver1.gif);background-repeat:repeat-y;background-position:617px 0;width:100%}
+.line-ver4 {background-image:url(../images/line-ver1.gif);background-repeat:repeat-y;background-position:777px 0;width:100%}
+/* boxes */
+.header-box {width:100%;background:url(../images/header-box-tail.gif) repeat-x left top;position:relative;top:50px}
+.header-box .left {background:url(../images/header-box-left.gif) no-repeat left top}
+.header-box .right {background:url(../images/header-box-right.gif) no-repeat right top;height:81px}
+.box {background:url(../images/box-tail.gif) repeat-x left top #fff;width:100%}
+.box .border-bot {background:url(../images/border-bot.gif) repeat-x left bottom}
+.box .border-left {background:url(../images/border-left.gif) repeat-y left top}
+.box .border-right {background:url(../images/border-right.gif) repeat-y right top}
+.box .left-top-corner {background:url(../images/left-top-corner.gif) no-repeat left top}
+.box .right-top-corner {background:url(../images/right-top-corner.gif) no-repeat right top}
+.box .left-top-corner1 {background:url(../images/left-top-corner1.gif) no-repeat left top}
+.box .right-top-corner1 {background:url(../images/right-top-corner1.gif) no-repeat right top}
+.box .left-bot-corner {background:url(../images/left-bot-corner.gif) no-repeat left bottom;width:100%}
+.box .right-bot-corner {background:url(../images/right-bot-corner.gif) no-repeat right bottom}
+.box .inner {padding:15px 38px 26px 43px}
+.box.extra {background-image:url(../images/box-tail1.gif);background-repeat:repeat-x;width:100%}
+.box.extra .inner {padding:4px 4px 1px 4px}
+.box .border-top {background-image:url(../images/box-tail2.gif);background-repeat:repeat-x;width:100%}
+.box .inner1 {padding:7px 0 0 0}
+/* header */
+header nav {float:right;padding:13px 24px 0 0}
+header nav li {float:left;font-size:18px;line-height:3em;text-transform:uppercase;padding-left:21px;margin-left:19px;background:url(../images/divider.gif) repeat-y left top}
+header nav li:first-child {background:none;padding-left:0;margin-left:0}
+header nav li a {color:#fff;text-decoration:none}
+header nav li.current a, header nav li a:hover {color:#82b704}
+header .top-info {position:absolute;left:45px;top:17px}

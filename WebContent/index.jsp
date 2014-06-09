@@ -1,6 +1,6 @@
 ﻿<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ taglib uri="http://jawr.net/tags" prefix="jwr" %>
+<%-- <%@ taglib uri="http://jawr.net/tags" prefix="jwr" %> --%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -11,8 +11,12 @@
 <!-- <link rel="stylesheet" href="css/reset.css" type="text/css" media="all"> -->
 <!-- <link rel="stylesheet" href="css/layout.css" type="text/css" media="all"> -->
 <!-- <link rel="stylesheet" href="css/style.css" type="text/css" media="all"> -->
-<jwr:style src="/bundles/all.css"></jwr:style>
-<jwr:script src="/bundles/all.js"></jwr:script>
+<%-- <jwr:style src="/style.css"></jwr:style> --%>
+<%-- <jwr:style src="/design.css"></jwr:style> --%>
+<%-- <jwr:style src="/wrapper.css"></jwr:style> --%>
+<%-- <jwr:style src="/all.css"></jwr:style> --%>
+<%-- <jwr:script src="/all.js"></jwr:script> --%>
+<%-- <jwr:script src="/scripts.js"></jwr:script> --%>
 <!-- <script type="text/javascript" src="js/maxheight.js"></script> -->
 <!-- <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script> -->
 <!-- <script type="text/javascript" src="js/cufon-yui.js"></script> -->

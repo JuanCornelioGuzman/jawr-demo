@@ -1,0 +1,72 @@
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block}
+mark, rp, rt, ruby, summary, time {display:inline}
+/* Global properties */
+body {background:#fff;font-family:Arial, Helvetica, sans-serif;font-size:100%;line-height:1em;color:#464646}
+html {min-width:980px}
+html, body {height:100%}
+/* Global Structure = */
+.container {margin:0 auto;width:990px;font-size:.75em}
+/* Header */
+header .container {height:131px;overflow:hidden;position:relative}
+/* Sidebar */
+aside {background:url(../images/aside-tail.gif) repeat-x left top #131313;min-width:980px}
+/* Footer */
+footer .container {text-align:center;line-height:1.667em;padding:26px 0}
+/* Left & Right alignment */
+.fleft {float:left}
+.fright {float:right}
+.clear {clear:both}
+.col-1, .col-2, .col-3, .col-4, .col-5 {float:left}
+.alignright {text-align:right}
+.aligncenter {text-align:center}
+.wrapper {width:100%;overflow:hidden}
+.wrap {width:100%}
+/* tailings */
+.tail-top, .tail-top1, .tail-top2, .tail-top3 {background-repeat:repeat-x;background-color:#f2f2f2;background-position:left top;min-width:980px}
+.tail-top {background-image:url(../images/tail-top.gif)}
+.tail-top1 {background-image:url(../images/tail-top1.gif)}
+.tail-top2 {background-image:url(../images/tail-top2.gif)}
+.tail-top3 {background-image:url(../images/tail-top3.gif)}
+/* form defaults */
+input, select, textarea {font-family:Arial, Helvetica, sans-serif;font-size:1em;vertical-align:middle;font-weight:normal;color:#393939;margin:0;padding:0}
+fieldset {border:0}
+/* lists */
+.info-list {padding-bottom:5px}
+.info-list li {text-align:right;width:100%;overflow:hidden;vertical-align:top;border-bottom:1px solid #dfdfdf;padding:0 0 6px 5px;margin:0 0 6px -5px}
+.info-list li span {float:left}
+.info-list1 {padding-bottom:5px}
+.info-list1 li {width:100%;overflow:hidden;vertical-align:top;border-top:1px solid #dfdfdf;padding:6px 0 0 5px;margin:6px 0 0 -5px}
+.info-list1 li:first-child {border:none;padding-top:0;margin-top:0}
+.info-list1.alt li {text-align:center}
+.solutions li {width:100%;overflow:hidden;vertical-align:top;margin:18px 0 0 -8px;background:url(../images/divider1.gif) repeat-x left top;padding-top:20px}
+.solutions li:first-child {background:none;padding-top:0;margin-top:0}
+.solutions li img {float:left;margin-right:9px} 
+.solutions li p {margin-bottom:10px}
+.list li {line-height:1.667em}
+.list li:first-child {font-weight:bold}
+.list li,
+.list li a {color:#e5e5e5}
+.list li a {text-decoration:none}
+.list li a:hover {color:#6fa803}
+.list1 {padding-bottom:11px} 
+.list1 li {padding:0 0 15px 10px;height:1%;background:url(../images/marker.gif) no-repeat left 4px}
+.banners {padding:12px 0 0 0}
+.banners li {float:left;font-size:26px;line-height:2.4em;letter-spacing:-1px;margin-left:6px}
+.banners li:first-child {margin-left:0}
+.banners li a {width:242px;display:block;height:65px;background:url(../images/banner-bg.gif) no-repeat left top;text-align:center;color:#fff;text-decoration:none}
+/* other */
+.img-indent {margin:0 20px 0 0;float:left}
+.img-box {width:100%;overflow:hidden;padding-bottom:12px;line-height:1.667em}
+.img-box img {float:left;margin:0 20px 0 -1px}
+.extra-wrap {overflow:hidden}
+p {margin-bottom:10px;line-height:1.667em}
+.p0 {margin:0}
+.p1 {margin-bottom:18px}
+.price {text-align:center;display:block;font-size:30px;line-height:1.2em;letter-spacing:-1px;padding-bottom:10px}
+#slogan {background:url(../images/slogan-bg.jpg) no-repeat left top;width:980px;height:220px;margin:12px 0 0 0;position:relative;left:3px;color:#fff;text-shadow:1px 1px #3e7901;position:relative}
+#slogan h2 {font-size:26px;text-transform:uppercase;color:#fff}
+#slogan h2 span {color:#262626}
+#slogan .inside {position:absolute;left:360px;top:50px;width:576px}
+address {font-style:normal;line-height:1.667em;display:block;padding-bottom:20px}
+address b {float:left;width:73px}
