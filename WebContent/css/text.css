@@ -55,3 +55,5 @@ header nav li:first-child {background:none;padding-left:0;margin-left:0}
 header nav li a {color:#fff;text-decoration:none}
 header nav li.current a, header nav li a:hover {color:#82b704}
 header .top-info {position:absolute;left:45px;top:17px}
+
+.banners li a {padding: 20px 0;}
