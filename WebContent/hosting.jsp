@@ -9,7 +9,9 @@
 <meta name="author" content="Templates.com - website templates provider">
 <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
 <link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
-<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/main.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/text.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/content.css" type="text/css" media="all">
 <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
 <script type="text/javascript" src="js/cufon-yui.js"></script>
 <script type="text/javascript" src="js/cufon-replace.js"></script>
@@ -42,7 +44,7 @@
 								<li><a href="contacts.jsp">Contacts</a></li>
 							</ul>
 						</nav>
-						<h1><a href="index.jsp"><span>Smart</span>Net</a></h1>
+						<h1><a href="index.jsp"><span>JAWR</span>Demo</a></h1>
 					</div>
 				</div>
 			</div>

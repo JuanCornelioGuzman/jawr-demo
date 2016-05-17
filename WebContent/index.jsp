@@ -1,5 +1,5 @@
-﻿<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+﻿<%@ page language="java" contentType="text/html; charset=UTF-8" 
+		pageEncoding="UTF-8"%>
 <%-- <%@ taglib uri="http://jawr.net/tags" prefix="jwr" %> --%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -8,24 +8,28 @@
 <meta name="description" content="Place your description here">
 <meta name="keywords" content="put, your, keyword, here">
 <meta name="author" content="Templates.com - website templates provider">
-<!-- <link rel="stylesheet" href="css/reset.css" type="text/css" media="all"> -->
-<!-- <link rel="stylesheet" href="css/layout.css" type="text/css" media="all"> -->
-<!-- <link rel="stylesheet" href="css/style.css" type="text/css" media="all"> -->
+
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/main.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/text.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/content.css" type="text/css" media="all">
 <%-- <jwr:style src="/style.css"></jwr:style> --%>
 <%-- <jwr:style src="/design.css"></jwr:style> --%>
 <%-- <jwr:style src="/wrapper.css"></jwr:style> --%>
 <%-- <jwr:style src="/all.css"></jwr:style> --%>
 <%-- <jwr:script src="/all.js"></jwr:script> --%>
 <%-- <jwr:script src="/scripts.js"></jwr:script> --%>
-<!-- <script type="text/javascript" src="js/maxheight.js"></script> -->
-<!-- <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script> -->
-<!-- <script type="text/javascript" src="js/cufon-yui.js"></script> -->
-<!-- <script type="text/javascript" src="js/cufon-replace.js"></script> -->
-<!-- <script type="text/javascript" src="js/Myriad_Pro_300.font.js"></script> -->
-<!-- <script type="text/javascript" src="js/Myriad_Pro_400.font.js"></script> -->
-<!-- <script type="text/javascript" src="js/jquery.faded.js"></script> -->
-<!-- <script type="text/javascript" src="js/jquery.jqtransform.js"></script> -->
-<!-- <script type="text/javascript" src="js/script.js"></script> -->
+<script type="text/javascript" src="js/maxheight.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>
+<script type="text/javascript" src="js/Myriad_Pro_300.font.js"></script>
+<script type="text/javascript" src="js/Myriad_Pro_400.font.js"></script>
+<script type="text/javascript" src="js/jquery.faded.js"></script>
+<script type="text/javascript" src="js/jquery.jqtransform.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
 <script type="text/javascript">
 	$(function(){
 		$("#faded").faded({
@@ -63,7 +67,7 @@
 								<li><a href="contacts.jsp">Contacts</a></li>
 							</ul>
 						</nav>
-						<h1><a href="index.jsp"><span>Smart</span>Net</a></h1>
+						<h1><a href="index.jsp"><span>JAWR</span>Demo</a></h1>
 					</div>
 				</div>
 			</div>
